@@ -1,2 +1,5 @@
+from learn_actions import add
+
+
 def test_add():
-    pass
+    assert add(1, 2) == 3
