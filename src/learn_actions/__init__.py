@@ -6,3 +6,15 @@ def add(a, b):
         return a + b
     else:
         return a + b  # test coverage for different versions
+
+    
+    
+def add2(a, b):
+    """
+    Test coverage with docstring
+    
+    >>> add2(1, 2)
+    3
+    """
+    
+    return a + b
